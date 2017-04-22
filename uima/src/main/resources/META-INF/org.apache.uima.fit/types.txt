@@ -1,1 +1,0 @@
-classpath*:org/dbpedia/spotlight/uima/types/*.xml

@@ -46,10 +46,6 @@
         <module>core</module>
         <module>rest</module>
         <module>index</module>
-        <module>eval</module>
-        <module>uima</module>
-        <module>dist</module>
-        <module>rest-tomcat</module>
     </modules>
 
     <build>
