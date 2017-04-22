@@ -1,26 +1,27 @@
 package org.dbpedia.spotlight.db
 
-import concurrent.{TokenizerWrapper, SpotterWrapper}
-import org.dbpedia.spotlight.db.memory.{MemoryVectorStore, MemoryContextStore, MemoryStore}
-import model._
-import opennlp.tools.tokenize.{TokenizerModel, TokenizerME}
-import opennlp.tools.sentdetect.{SentenceModel, SentenceDetectorME}
-import opennlp.tools.postag.{POSModel, POSTaggerME}
-import org.dbpedia.spotlight.disambiguate.mixtures.UnweightedMixture
-import org.dbpedia.spotlight.db.similarity.{VectorContextSimilarity, NoContextSimilarity, GenerativeContextSimilarity, ContextSimilarity}
-import scala.collection.JavaConverters._
-import org.dbpedia.spotlight.model.SpotterConfiguration.SpotterPolicy
-import org.dbpedia.spotlight.model.SpotlightConfiguration.DisambiguationPolicy
-import org.dbpedia.spotlight.disambiguate.ParagraphDisambiguatorJ
-import org.dbpedia.spotlight.spot.{SpotXmlParser, Spotter}
-import java.io.{IOException, File, FileInputStream}
+import java.io.{File, FileInputStream, IOException}
 import java.util.{Locale, Properties}
+
 import opennlp.tools.chunker.ChunkerModel
 import opennlp.tools.namefind.TokenNameFinderModel
-import stem.SnowballStemmer
-import tokenize.{OpenNLPTokenizer, LanguageIndependentTokenizer}
+import opennlp.tools.postag.{POSModel, POSTaggerME}
+import opennlp.tools.sentdetect.{SentenceDetectorME, SentenceModel}
+import opennlp.tools.tokenize.{TokenizerME, TokenizerModel}
+import org.dbpedia.spotlight.db.memory.{MemoryStore, MemoryVectorStore}
+import org.dbpedia.spotlight.db.model._
+import org.dbpedia.spotlight.db.similarity.{ContextSimilarity, GenerativeContextSimilarity, NoContextSimilarity, VectorContextSimilarity}
+import org.dbpedia.spotlight.db.stem.SnowballStemmer
+import org.dbpedia.spotlight.db.tokenize.{LanguageIndependentTokenizer, OpenNLPTokenizer}
+import org.dbpedia.spotlight.disambiguate.ParagraphDisambiguatorJ
+import org.dbpedia.spotlight.disambiguate.mixtures.UnweightedMixture
 import org.dbpedia.spotlight.exceptions.ConfigurationException
+import org.dbpedia.spotlight.model.SpotlightConfiguration.DisambiguationPolicy
+import org.dbpedia.spotlight.model.SpotterConfiguration.SpotterPolicy
+import org.dbpedia.spotlight.spot.{SpotXmlParser, Spotter}
 import org.dbpedia.spotlight.util.MathUtil
+
+import scala.collection.JavaConverters._
 
 
 class SpotlightModel(val tokenizer: TextTokenizer,

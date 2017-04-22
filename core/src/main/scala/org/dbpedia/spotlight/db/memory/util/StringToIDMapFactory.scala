@@ -1,7 +1,6 @@
 package org.dbpedia.spotlight.db.memory.util
 
-import it.unimi.dsi.fastutil.objects.{Object2ShortOpenHashMap, Object2IntOpenHashMap}
-import java.lang.Integer
+import it.unimi.dsi.fastutil.objects.{Object2IntOpenHashMap, Object2ShortOpenHashMap}
 
 /**
  * Factory for a Map for efficient lookup of an ID given a String.

@@ -1,6 +1,6 @@
 package org.dbpedia.spotlight.db.tokenize
 
-import org.dbpedia.spotlight.db.model.{StringTokenizer, Stemmer}
+import org.dbpedia.spotlight.db.model.{Stemmer, StringTokenizer}
 import org.dbpedia.spotlight.model.Text
 
 abstract class BaseStringTokenizer(stemmer: Stemmer) extends StringTokenizer {

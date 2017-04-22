@@ -4,10 +4,9 @@ package org.dbpedia.spotlight.db.spotter
  * Created by dav009 on 24/03/2014.
  */
 
-import org.junit.Test
-import org.junit.Assert.assertEquals
 import org.dbpedia.spotlight.db.{FSADictionary, FSASpotter}
-import scala.Array
+import org.junit.Assert.assertEquals
+import org.junit.Test
 
 
 object TestFSA{

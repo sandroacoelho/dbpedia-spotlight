@@ -1,6 +1,6 @@
 package org.dbpedia.spotlight.disambiguate.mixtures
 
-import org.dbpedia.spotlight.model.{Feature, DBpediaResourceOccurrence}
+import org.dbpedia.spotlight.model.{DBpediaResourceOccurrence, Feature}
 import org.dbpedia.spotlight.util.MathUtil
 
 /**

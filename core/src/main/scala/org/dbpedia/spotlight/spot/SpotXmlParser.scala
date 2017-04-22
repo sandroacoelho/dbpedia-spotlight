@@ -18,9 +18,10 @@
 
 package org.dbpedia.spotlight.spot
 
-import xml.{Node, XML}
 import org.dbpedia.spotlight.model.{SurfaceForm, SurfaceFormOccurrence, Text}
+
 import scala.collection.JavaConversions._
+import scala.xml.{Node, XML}
 
 /**
  * This is a parser disguised as a spotter.

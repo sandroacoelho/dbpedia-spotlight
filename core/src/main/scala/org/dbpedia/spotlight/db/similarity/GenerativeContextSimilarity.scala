@@ -1,11 +1,10 @@
 package org.dbpedia.spotlight.db.similarity
 
-import org.dbpedia.spotlight.model.{DBpediaResource, TokenType}
-import collection.mutable
 import org.dbpedia.spotlight.db.model.{ContextStore, TokenTypeStore}
-import scala.collection.JavaConversions._
+import org.dbpedia.spotlight.model.{DBpediaResource, TokenType}
 import org.dbpedia.spotlight.util.MathUtil
-import org.apache.commons.logging.LogFactory
+
+import scala.collection.mutable
 
 /**
  * Generative context similarity based on Han et. al

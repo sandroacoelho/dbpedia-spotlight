@@ -16,10 +16,12 @@
 
 package org.dbpedia.spotlight.io
 
-import scala.collection.JavaConversions._
 import java.io.File
+
+import org.dbpedia.spotlight.model.{DBpediaResourceOccurrence, OntologyType}
 import org.dbpedia.spotlight.util.TypesLoader
-import org.dbpedia.spotlight.model.{OntologyType, DBpediaResourceOccurrence}
+
+import scala.collection.JavaConversions._
 
 /**
  * User: Max

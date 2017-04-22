@@ -18,19 +18,16 @@
 
 package org.dbpedia.spotlight.spot;
 
-import java.io.File;
-import java.util.ArrayList;
-import java.util.List;
-
+import com.gossinteractive.kea.KeaKeyphraseExtractorAPI;
+import com.gossinteractive.kea.KeyPhrase;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.dbpedia.spotlight.model.SurfaceForm;
 import org.dbpedia.spotlight.model.SurfaceFormOccurrence;
 import org.dbpedia.spotlight.model.Text;
-import org.dbpedia.spotlight.spot.Spotter;
-import com.gossinteractive.kea.KeaKeyphraseExtractorAPI;
-import com.gossinteractive.kea.KeaModelBuilderAPI;
-import com.gossinteractive.kea.KeyPhrase;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Based on Kea (http://www.nzdl.org/Kea/) a keyphrase extractor.

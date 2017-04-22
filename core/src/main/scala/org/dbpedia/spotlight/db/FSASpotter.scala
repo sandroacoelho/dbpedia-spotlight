@@ -1,12 +1,11 @@
 package org.dbpedia.spotlight.db
 
-import memory.MemoryStore
-import org.dbpedia.spotlight.model._
-import model.{TextTokenizer, StringTokenizer, SurfaceFormStore}
 import opennlp.tools.util.Span
-import scala.collection.mutable.{ListBuffer, ArrayBuffer, Map}
-import tokenize.LanguageIndependentTokenizer
-import util.control.Breaks._
+import org.dbpedia.spotlight.db.memory.MemoryStore
+import org.dbpedia.spotlight.db.model.{SurfaceFormStore, TextTokenizer}
+import org.dbpedia.spotlight.model._
+
+import scala.collection.mutable.{ArrayBuffer, ListBuffer, Map}
 
 
 /**

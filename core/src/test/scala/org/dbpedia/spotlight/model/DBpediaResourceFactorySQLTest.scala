@@ -1,7 +1,8 @@
 package org.dbpedia.spotlight.model
 
-import io.Source
 import org.junit.Test
+
+import scala.io.Source
 
 /**
  * Makes sure that the factory that uses a database to build resources is working. Also times execution,

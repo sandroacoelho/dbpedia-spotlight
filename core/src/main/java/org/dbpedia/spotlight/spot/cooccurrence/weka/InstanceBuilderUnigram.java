@@ -1,12 +1,12 @@
 package org.dbpedia.spotlight.spot.cooccurrence.weka;
 
+import org.dbpedia.spotlight.exceptions.ItemNotFoundException;
+import org.dbpedia.spotlight.model.SurfaceFormOccurrence;
+import org.dbpedia.spotlight.model.TaggedText;
 import org.dbpedia.spotlight.spot.cooccurrence.features.CandidateFeatures;
 import org.dbpedia.spotlight.spot.cooccurrence.features.data.CandidateData;
 import org.dbpedia.spotlight.spot.cooccurrence.features.data.CoOccurrenceData;
 import org.dbpedia.spotlight.spot.cooccurrence.features.data.OccurrenceDataProvider;
-import org.dbpedia.spotlight.exceptions.ItemNotFoundException;
-import org.dbpedia.spotlight.model.SurfaceFormOccurrence;
-import org.dbpedia.spotlight.model.TaggedText;
 import org.dbpedia.spotlight.tagging.TaggedToken;
 import weka.core.Attribute;
 import weka.core.Instance;

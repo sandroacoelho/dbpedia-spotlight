@@ -1,6 +1,6 @@
 package org.dbpedia.spotlight.db.model
 
-import org.dbpedia.spotlight.model.{Token, Text}
+import org.dbpedia.spotlight.model.{Text, Token}
 
 /**
  * A Tokenizer splits a [[org.dbpedia.spotlight.model.Text]] into its [[org.dbpedia.spotlight.model.Token]]s.

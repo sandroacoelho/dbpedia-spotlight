@@ -18,15 +18,16 @@
 
 package org.dbpedia.spotlight.model
 
-import org.dbpedia.spotlight.log.SpotlightLog
 import org.dbpedia.spotlight.disambiguate._
-import org.dbpedia.spotlight.spot._
-import ahocorasick.AhoCorasickSpotter
-import collection.JavaConversions._
-import org.dbpedia.spotlight.model.SpotterConfiguration.SpotterPolicy
-import org.dbpedia.spotlight.model.SpotlightConfiguration.DisambiguationPolicy
 import org.dbpedia.spotlight.exceptions.ConfigurationException
-import io.Source
+import org.dbpedia.spotlight.log.SpotlightLog
+import org.dbpedia.spotlight.model.SpotlightConfiguration.DisambiguationPolicy
+import org.dbpedia.spotlight.model.SpotterConfiguration.SpotterPolicy
+import org.dbpedia.spotlight.spot._
+import org.dbpedia.spotlight.spot.ahocorasick.AhoCorasickSpotter
+
+import scala.collection.JavaConversions._
+import scala.io.Source
 
 /**
  * This class contains many of the "defaults" for DBpedia Spotlight.

@@ -16,8 +16,9 @@
 
 package org.dbpedia.spotlight.model
 
-import scala.collection.JavaConversions._
 import org.dbpedia.extraction.util.WikiUtil
+
+import scala.collection.JavaConversions._
 
 
 @serializable

@@ -18,8 +18,8 @@
 
 package org.dbpedia.spotlight.model
 
-import org.junit.Test
 import org.dbpedia.spotlight.exceptions.ItemNotFoundException
+import org.junit.Test
 
 /**
  * For tests that use a store (Lucene or HSQL) to create objects.

@@ -37,6 +37,7 @@ package org.dbpedia.spotlight.model
  */
 
 import org.apache.commons.lang.NotImplementedException
+
 import scala.collection.JavaConverters._
 /**
  * Class to give a perspective of text items (e.g. paragraphs) containing surface form occurrences to be annotated,

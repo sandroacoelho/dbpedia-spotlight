@@ -1,9 +1,8 @@
 package org.dbpedia.spotlight.util
 
 import breeze.linalg.DenseVector
+import org.dbpedia.spotlight.util.MathUtil.{cosineSimilarity, magnitude}
 import org.junit.Test
-import org.scalatest.Assertions.intercept
-import org.dbpedia.spotlight.util.MathUtil.{magnitude, cosineSimilarity}
 
 /**
  * Created by dowling on 01/11/15.

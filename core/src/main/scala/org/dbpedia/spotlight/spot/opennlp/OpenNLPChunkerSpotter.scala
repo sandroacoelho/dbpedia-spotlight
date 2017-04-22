@@ -1,18 +1,19 @@
 package org.dbpedia.spotlight.spot.opennlp
 
-import scala.collection.JavaConverters._
-import org.dbpedia.spotlight.spot.{OpenNLPUtil, Spotter}
-import opennlp.tools.chunker.{ChunkerModel, ChunkerME, Chunker}
-import java.io.FileInputStream
-import java.io.File
-import opennlp.tools.postag.{POSModel, POSTaggerME, POSTagger}
-import opennlp.tools.tokenize.{TokenizerModel, TokenizerME, Tokenizer}
-import opennlp.tools.sentdetect.{SentenceModel, SentenceDetectorME, SentenceDetector}
+import java.io.{File, FileInputStream}
 import java.util.LinkedList
-import scala.util.control.Breaks._
+
+import opennlp.tools.chunker.{Chunker, ChunkerME, ChunkerModel}
+import opennlp.tools.postag.{POSModel, POSTagger, POSTaggerME}
+import opennlp.tools.sentdetect.{SentenceDetector, SentenceDetectorME, SentenceModel}
+import opennlp.tools.tokenize.{Tokenizer, TokenizerME, TokenizerModel}
 import org.dbpedia.spotlight.model.{SurfaceForm, SurfaceFormOccurrence, Text}
-import collection.mutable.HashSet
-import io.Source
+import org.dbpedia.spotlight.spot.{OpenNLPUtil, Spotter}
+
+import scala.collection.JavaConverters._
+import scala.collection.mutable.HashSet
+import scala.io.Source
+import scala.util.control.Breaks._
 
 
 

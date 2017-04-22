@@ -1,6 +1,6 @@
 package com.officedepot.cdap2.collection
 
-import FixedHashSet._
+import com.officedepot.cdap2.collection.FixedHashSet._
 
 /** <p>
  *  This class implements mutable maps using a hashtable.

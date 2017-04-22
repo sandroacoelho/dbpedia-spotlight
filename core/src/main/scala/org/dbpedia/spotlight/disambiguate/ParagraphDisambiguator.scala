@@ -18,11 +18,8 @@
 package org.dbpedia.spotlight.disambiguate
 
 
-import org.dbpedia.spotlight.exceptions.InputException
-import org.dbpedia.spotlight.exceptions.ItemNotFoundException
-import org.dbpedia.spotlight.exceptions.SearchException
+import org.dbpedia.spotlight.exceptions.{InputException, ItemNotFoundException, SearchException}
 import org.dbpedia.spotlight.model._
-import java.io.IOException
 
 /**
  * Interface for objects that perform disambiguation at the paragraph level (collective disambiguation of occurrences)

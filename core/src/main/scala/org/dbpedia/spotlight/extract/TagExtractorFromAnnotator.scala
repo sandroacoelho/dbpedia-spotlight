@@ -1,8 +1,9 @@
 package org.dbpedia.spotlight.extract
 
-import org.dbpedia.spotlight.model.{OntologyType, Text, DBpediaResourceOccurrence}
+import org.dbpedia.spotlight.annotate.ParagraphAnnotator
+import org.dbpedia.spotlight.model.{DBpediaResourceOccurrence, OntologyType, Text}
+
 import scala.collection.JavaConversions._
-import org.dbpedia.spotlight.annotate.{ParagraphAnnotator, Annotator}
 
 /**
  * Wraps around an Annotator object to provide TagExtractor functionality.

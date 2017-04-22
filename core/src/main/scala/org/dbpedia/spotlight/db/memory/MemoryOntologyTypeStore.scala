@@ -1,9 +1,10 @@
 package org.dbpedia.spotlight.db.memory
 
-import org.dbpedia.spotlight.db.model.OntologyTypeStore
+import java.lang.Short
 import java.util.HashMap
+
+import org.dbpedia.spotlight.db.model.OntologyTypeStore
 import org.dbpedia.spotlight.model.{Factory, OntologyType}
-import java.lang.{Short, String}
 
 /**
  * @author Joachim Daiber

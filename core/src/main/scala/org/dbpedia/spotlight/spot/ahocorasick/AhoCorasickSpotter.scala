@@ -16,14 +16,15 @@
 
 package org.dbpedia.spotlight.spot.ahocorasick
 
-import collection.mutable.ListBuffer
 import com.corruptmemory.aho_corasick.AhoCorasickBuilder.Data
-import com.corruptmemory.aho_corasick.{Match, AhoCorasickBuilder}
-import util.Sorting
-import org.dbpedia.spotlight.spot.Spotter
+import com.corruptmemory.aho_corasick.{AhoCorasickBuilder, Match}
 import org.dbpedia.spotlight.log.SpotlightLog
-import org.dbpedia.spotlight.model.{SurfaceForm, Text, SurfaceFormOccurrence}
+import org.dbpedia.spotlight.model.{SurfaceForm, SurfaceFormOccurrence, Text}
+import org.dbpedia.spotlight.spot.Spotter
+
 import scala.collection.JavaConversions._
+import scala.collection.mutable.ListBuffer
+import scala.util.Sorting
 
 /**
  * AhoCorasick Spotter Class

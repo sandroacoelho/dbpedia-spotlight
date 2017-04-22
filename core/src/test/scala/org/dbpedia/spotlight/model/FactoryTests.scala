@@ -1,7 +1,7 @@
 package org.dbpedia.spotlight.model
 
-import org.junit.Test
 import org.junit.Assert._
+import org.junit.Test
 
 /**
  * For methods that create model objects, making sure factory works.

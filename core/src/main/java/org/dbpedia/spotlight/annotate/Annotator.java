@@ -19,8 +19,8 @@ package org.dbpedia.spotlight.annotate;
 import org.dbpedia.spotlight.disambiguate.Disambiguator;
 import org.dbpedia.spotlight.exceptions.InputException;
 import org.dbpedia.spotlight.exceptions.SearchException;
-import org.dbpedia.spotlight.spot.Spotter;
 import org.dbpedia.spotlight.model.DBpediaResourceOccurrence;
+import org.dbpedia.spotlight.spot.Spotter;
 
 import java.util.List;
 

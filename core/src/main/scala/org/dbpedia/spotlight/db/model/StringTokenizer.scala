@@ -1,7 +1,7 @@
 package org.dbpedia.spotlight.db.model
 
-import org.dbpedia.spotlight.model.Text
 import opennlp.tools.util.Span
+import org.dbpedia.spotlight.model.Text
 
 trait StringTokenizer {
 

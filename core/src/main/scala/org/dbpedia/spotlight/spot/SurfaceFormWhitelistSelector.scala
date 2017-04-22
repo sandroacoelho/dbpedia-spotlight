@@ -17,10 +17,11 @@
 
 package org.dbpedia.spotlight.spot
 
-import scala.collection.JavaConverters._
 import org.dbpedia.spotlight.model._
-import scala.io.Source._
+
+import scala.collection.JavaConverters._
 import scala.collection.mutable.HashSet
+import scala.io.Source._
 
 
 /**

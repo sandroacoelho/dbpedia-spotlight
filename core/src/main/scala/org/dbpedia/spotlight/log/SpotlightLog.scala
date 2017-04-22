@@ -1,6 +1,7 @@
 package org.dbpedia.spotlight.log
 
 import org.apache.commons.logging.{Log, LogFactory}
+
 import scala.collection.mutable
 
 trait SpotlightLog[T] {

@@ -2,8 +2,8 @@ package org.dbpedia.spotlight.spot.cooccurrence.weka;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-import org.dbpedia.spotlight.spot.cooccurrence.features.data.OccurrenceDataProvider;
 import org.dbpedia.spotlight.model.SurfaceFormOccurrence;
+import org.dbpedia.spotlight.spot.cooccurrence.features.data.OccurrenceDataProvider;
 import weka.core.Attribute;
 import weka.core.Instance;
 

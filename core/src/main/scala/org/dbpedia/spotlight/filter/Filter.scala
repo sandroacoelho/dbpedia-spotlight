@@ -35,6 +35,7 @@ package org.dbpedia.spotlight.filter
  */
 
 import org.dbpedia.spotlight.model.DBpediaResourceOccurrence
+
 import scala.collection.JavaConversions._
 
 /**

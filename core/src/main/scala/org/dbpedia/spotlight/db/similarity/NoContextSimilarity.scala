@@ -1,8 +1,9 @@
 package org.dbpedia.spotlight.db.similarity
 
 import org.dbpedia.spotlight.model.{DBpediaResource, TokenType}
-import scala.collection.mutable
 import org.dbpedia.spotlight.util.MathUtil
+
+import scala.collection.mutable
 
 /**
  * Created by dav009 on 06/03/2014.

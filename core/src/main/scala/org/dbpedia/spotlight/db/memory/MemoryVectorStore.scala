@@ -1,10 +1,10 @@
 package org.dbpedia.spotlight.db.memory
 
-import breeze.linalg.{DenseVector, Transpose, DenseMatrix}
-import com.esotericsoftware.kryo.io.{Output, Input}
+import breeze.linalg.{DenseMatrix, DenseVector, Transpose}
+import com.esotericsoftware.kryo.io.{Input, Output}
 import com.esotericsoftware.kryo.{Kryo, KryoSerializable}
 import org.dbpedia.spotlight.log.SpotlightLog
-import org.dbpedia.spotlight.model.{TokenType, DBpediaResource}
+import org.dbpedia.spotlight.model.{DBpediaResource, TokenType}
 
 /**
  * Created by dowling on 09/07/15.

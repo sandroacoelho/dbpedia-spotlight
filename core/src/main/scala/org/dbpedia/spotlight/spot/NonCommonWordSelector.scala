@@ -1,13 +1,13 @@
 package org.dbpedia.spotlight.spot
 
-import io.Source
-import com.officedepot.cdap2.collection.CompactHashSet
 import java.io._
-import org.dbpedia.spotlight.model.SurfaceFormOccurrence
-import collection.JavaConversions._
-import org.apache.commons.logging.Log
+
+import com.officedepot.cdap2.collection.CompactHashSet
 import org.apache.log4j.Logger
 import org.dbpedia.spotlight.io.WortschatzParser
+import org.dbpedia.spotlight.model.SurfaceFormOccurrence
+
+import scala.collection.JavaConversions._
 
 
 /**

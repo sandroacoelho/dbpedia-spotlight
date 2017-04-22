@@ -1,8 +1,7 @@
 package org.dbpedia.spotlight.db.model
 
-import org.dbpedia.spotlight.model.DBpediaResource
 import org.dbpedia.spotlight.exceptions.DBpediaResourceNotFoundException
-import scala.throws
+import org.dbpedia.spotlight.model.DBpediaResource
 
 
 /**

@@ -1,12 +1,12 @@
 package org.dbpedia.spotlight.msm2013.model
 
-import java.io.{FilenameFilter, File}
-import org.dbpedia.spotlight.model.{OntologyType, DBpediaResource}
-import org.dbpedia.spotlight.io.NTripleSource
-import org.dbpedia.spotlight.model.Factory.OntologyType
-import org.dbpedia.spotlight.model.OntologyType
-import org.dbpedia.spotlight.log.SpotlightLog
+import java.io.{File, FilenameFilter}
+
 import org.dbpedia.spotlight.db.disk.JDBMStore
+import org.dbpedia.spotlight.io.NTripleSource
+import org.dbpedia.spotlight.log.SpotlightLog
+import org.dbpedia.spotlight.model.Factory.OntologyType
+import org.dbpedia.spotlight.model.{DBpediaResource, OntologyType}
 
 /**
  * Loads NT files containing mappings between URIs and types through rdfs:types relationships

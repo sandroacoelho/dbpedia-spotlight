@@ -18,12 +18,12 @@
 
 package org.dbpedia.spotlight.disambiguate
 
-import org.dbpedia.spotlight.exceptions.InputException
-import org.dbpedia.spotlight.exceptions.ItemNotFoundException
-import org.dbpedia.spotlight.exceptions.SearchException
-import org.dbpedia.spotlight.model._
-import scala.collection.JavaConverters._
 import java.util.HashMap
+
+import org.dbpedia.spotlight.exceptions.{InputException, ItemNotFoundException, SearchException}
+import org.dbpedia.spotlight.model._
+
+import scala.collection.JavaConverters._
 
 /**
  * This is a wrapper to the scala interface to make it easier to call from Java code.

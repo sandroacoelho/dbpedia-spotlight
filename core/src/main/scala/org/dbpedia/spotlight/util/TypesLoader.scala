@@ -16,14 +16,15 @@
 
 package org.dbpedia.spotlight.util
 
-import io.Source
-import scala.collection.JavaConversions._
+import java.io.{File, InputStream}
+import java.util.LinkedHashSet
+
 import org.dbpedia.spotlight.log.SpotlightLog
-import java.util.{LinkedHashSet, LinkedList}
-import java.io.{InputStream, File}
-import org.semanticweb.yars.nx.parser.NxParser
-import collection.JavaConversions
 import org.dbpedia.spotlight.model._
+import org.semanticweb.yars.nx.parser.NxParser
+
+import scala.collection.JavaConversions._
+import scala.io.Source
 
 /**
  * Created by IntelliJ IDEA.

@@ -1,7 +1,8 @@
 package org.dbpedia.spotlight.db.model
 
+import java.lang.Short
+
 import org.dbpedia.spotlight.model.OntologyType
-import java.lang.{Short, String}
 
 /**
  *  A store interface for ontology types. Ontology types are currently

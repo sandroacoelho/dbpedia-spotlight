@@ -1,8 +1,7 @@
 package org.dbpedia.spotlight.db.memory
 
+import org.dbpedia.spotlight.db.model.{CandidateMapStore, ResourceStore}
 import org.dbpedia.spotlight.model.{Candidate, SurfaceForm}
-import org.dbpedia.spotlight.db.model.{ResourceStore, CandidateMapStore}
-import scala.Array
 
 /**
  *

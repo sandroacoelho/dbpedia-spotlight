@@ -18,8 +18,8 @@
 
 package org.dbpedia.spotlight.filter.annotations
 
-import org.dbpedia.spotlight.model.DBpediaResourceOccurrence
 import org.dbpedia.spotlight.log.SpotlightLog
+import org.dbpedia.spotlight.model.DBpediaResourceOccurrence
 
 class ContextualScoreFilter(val simThreshold : Double) extends AnnotationFilter  {
 

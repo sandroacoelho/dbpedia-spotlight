@@ -16,11 +16,13 @@
 
 package org.dbpedia.spotlight.filter.annotations
 
-import org.dbpedia.spotlight.log.SpotlightLog
-import org.dbpedia.spotlight.model.{OntologyType, DBpediaResource, DBpediaType, DBpediaResourceOccurrence}
-import org.dbpedia.spotlight.filter.visitor.{FilterElement, FilterOccsVisitor}
-import scala.collection.JavaConversions._
 import java.util
+
+import org.dbpedia.spotlight.filter.visitor.{FilterElement, FilterOccsVisitor}
+import org.dbpedia.spotlight.log.SpotlightLog
+import org.dbpedia.spotlight.model.{DBpediaResource, DBpediaResourceOccurrence, DBpediaType, OntologyType}
+
+import scala.collection.JavaConversions._
 
 class TypeFilter(var ontologyTypes : List[OntologyType], val blacklistOrWhitelist : FilterPolicy.ListColor) extends AnnotationFilter  with FilterElement {
 

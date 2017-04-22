@@ -1,8 +1,7 @@
 package org.dbpedia.spotlight.db.model
 
-import org.dbpedia.spotlight.model.SurfaceForm
 import org.dbpedia.spotlight.exceptions.SurfaceFormNotFoundException
-import scala.throws
+import org.dbpedia.spotlight.model.SurfaceForm
 
 /**
  *

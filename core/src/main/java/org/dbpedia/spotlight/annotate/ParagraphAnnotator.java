@@ -16,8 +16,6 @@
 
 package org.dbpedia.spotlight.annotate;
 
-import org.dbpedia.spotlight.disambiguate.Disambiguator;
-import org.dbpedia.spotlight.disambiguate.ParagraphDisambiguator;
 import org.dbpedia.spotlight.disambiguate.ParagraphDisambiguatorJ;
 import org.dbpedia.spotlight.exceptions.InputException;
 import org.dbpedia.spotlight.exceptions.SearchException;

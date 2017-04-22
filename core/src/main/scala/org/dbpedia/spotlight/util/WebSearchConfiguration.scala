@@ -1,9 +1,10 @@
 package org.dbpedia.spotlight.util
 
+import java.io.{File, FileInputStream}
+import java.util.Properties
+
 import org.dbpedia.spotlight.exceptions.ConfigurationException
 import org.dbpedia.spotlight.log.SpotlightLog
-import java.util.Properties
-import java.io.{FileInputStream, File}
 
 /**
  * Created by IntelliJ IDEA.

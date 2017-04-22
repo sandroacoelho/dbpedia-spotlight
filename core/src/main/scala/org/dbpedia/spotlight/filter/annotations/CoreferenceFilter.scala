@@ -16,8 +16,8 @@
 
 package org.dbpedia.spotlight.filter.annotations
 
-import org.dbpedia.spotlight.model.{SurfaceForm, DBpediaResourceOccurrence}
 import org.dbpedia.spotlight.log.SpotlightLog
+import org.dbpedia.spotlight.model.{DBpediaResourceOccurrence, SurfaceForm}
 
 /**
  * this is a heuristic and has nothing to do with proper coreference resolution!!!

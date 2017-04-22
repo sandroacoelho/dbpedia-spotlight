@@ -1,8 +1,8 @@
 package org.dbpedia.spotlight.db
 
-import model.{ResourceStore, SurfaceFormStore, CandidateMapStore}
-import org.dbpedia.spotlight.model._
+import org.dbpedia.spotlight.db.model.{CandidateMapStore, ResourceStore, SurfaceFormStore}
 import org.dbpedia.spotlight.exceptions.SurfaceFormNotFoundException
+import org.dbpedia.spotlight.model._
 
 /**
  * A database-backed candidate searcher to retrieve candidates for a surface form.

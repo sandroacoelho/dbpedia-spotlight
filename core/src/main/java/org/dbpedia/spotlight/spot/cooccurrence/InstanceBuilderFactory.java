@@ -1,12 +1,12 @@
 package org.dbpedia.spotlight.spot.cooccurrence;
 
+import org.dbpedia.spotlight.exceptions.InitializationException;
 import org.dbpedia.spotlight.spot.cooccurrence.features.data.OccurrenceDataProvider;
-import org.dbpedia.spotlight.spot.cooccurrence.weka.*;
+import org.dbpedia.spotlight.spot.cooccurrence.weka.InstanceBuilder;
 import org.dbpedia.spotlight.spot.cooccurrence.weka.googlengram.InstanceBuilderNGramGoogle;
 import org.dbpedia.spotlight.spot.cooccurrence.weka.googlengram.InstanceBuilderUnigramGoogle;
 import org.dbpedia.spotlight.spot.cooccurrence.weka.ukwac.InstanceBuilderNGramUKWAC;
 import org.dbpedia.spotlight.spot.cooccurrence.weka.ukwac.InstanceBuilderUnigramUKWAC;
-import org.dbpedia.spotlight.exceptions.InitializationException;
 
 /**
  * <p>

@@ -1,6 +1,7 @@
 package org.dbpedia.spotlight.db.memory
 
 import org.dbpedia.spotlight.db.model.QuantizedCountStore
+
 import scala.collection.mutable
 
 class MemoryQuantizedCountStore extends MemoryStore with QuantizedCountStore {

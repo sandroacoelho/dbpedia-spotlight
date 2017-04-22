@@ -18,13 +18,15 @@
 
 package org.dbpedia.spotlight.filter.annotations
 
+import java.util
+
+import org.dbpedia.spotlight.filter.visitor.{FilterElement, FilterOccsVisitor}
 import org.dbpedia.spotlight.log.SpotlightLog
 import org.dbpedia.spotlight.model.{DBpediaResource, DBpediaResourceOccurrence}
 import org.dbpedia.spotlight.sparql.SparqlQueryExecuter
-import org.dbpedia.spotlight.filter.visitor.{FilterOccsVisitor, FilterElement}
-import scala.collection.JavaConverters._
-import java.util
+
 import scala.collection.JavaConversions._
+import scala.collection.JavaConverters._
 
 
 class SparqlFilter(val executer : SparqlQueryExecuter, val sparqlQuery: String, val listColor : FilterPolicy.ListColor) extends AnnotationFilter with FilterElement  {

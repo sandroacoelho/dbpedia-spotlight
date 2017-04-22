@@ -18,9 +18,9 @@ package org.dbpedia.spotlight.spot
  *
  */
 
-import scala.collection.JavaConverters._
-
 import org.dbpedia.spotlight.model._
+
+import scala.collection.JavaConverters._
 
 
 /**

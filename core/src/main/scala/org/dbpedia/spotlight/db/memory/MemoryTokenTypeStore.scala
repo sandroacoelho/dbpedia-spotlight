@@ -1,9 +1,9 @@
 package org.dbpedia.spotlight.db.memory
 
-import org.dbpedia.spotlight.log.SpotlightLog
+import org.dbpedia.spotlight.db.memory.util.StringToIDMapFactory
 import org.dbpedia.spotlight.db.model.TokenTypeStore
+import org.dbpedia.spotlight.log.SpotlightLog
 import org.dbpedia.spotlight.model.TokenType
-import util.StringToIDMapFactory
 
 /**
  * A memory-based store for

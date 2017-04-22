@@ -1,7 +1,8 @@
 package org.dbpedia.spotlight.db.model
 
 import java.util.Map
-import org.dbpedia.spotlight.model.{TokenType, Token, DBpediaResource}
+
+import org.dbpedia.spotlight.model.{DBpediaResource, TokenType}
 
 
 /**

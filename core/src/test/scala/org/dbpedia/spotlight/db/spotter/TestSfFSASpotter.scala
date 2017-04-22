@@ -19,14 +19,13 @@ package org.dbpedia.spotlight.db.spotter
 
 import java.util.Locale
 
-import org.dbpedia.spotlight.util.MemoryStoreUtil.createTokenTypeStore
+import org.dbpedia.spotlight.db.{AllOccurrencesFSASpotter, FSASpotter}
 import org.dbpedia.spotlight.db.model.Stemmer
-import org.dbpedia.spotlight.db.tokenize.{LanguageIndependentTokenizer, LanguageIndependentStringTokenizer}
+import org.dbpedia.spotlight.db.tokenize.{LanguageIndependentStringTokenizer, LanguageIndependentTokenizer}
 import org.dbpedia.spotlight.model.TokenType
-import org.dbpedia.spotlight.db.AllOccurrencesFSASpotter
-import org.dbpedia.spotlight.db.FSASpotter
-import org.junit.Test
+import org.dbpedia.spotlight.util.MemoryStoreUtil.createTokenTypeStore
 import org.junit.Assert.assertEquals
+import org.junit.Test
 
 import scala.collection.mutable.ListBuffer
 

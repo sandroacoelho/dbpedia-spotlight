@@ -16,10 +16,12 @@
 
 package org.dbpedia.spotlight.filter.annotations
 
-import org.dbpedia.spotlight.model.DBpediaResourceOccurrence
-import org.dbpedia.spotlight.log.SpotlightLog
-import org.dbpedia.spotlight.filter.visitor.{FilterOccsVisitor, FilterElement}
 import java.util
+
+import org.dbpedia.spotlight.filter.visitor.{FilterElement, FilterOccsVisitor}
+import org.dbpedia.spotlight.log.SpotlightLog
+import org.dbpedia.spotlight.model.DBpediaResourceOccurrence
+
 import scala.collection.JavaConversions._
 
 

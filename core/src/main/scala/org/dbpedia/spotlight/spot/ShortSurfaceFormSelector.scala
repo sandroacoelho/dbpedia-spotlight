@@ -1,6 +1,7 @@
 package org.dbpedia.spotlight.spot
 
 import org.dbpedia.spotlight.model.SurfaceFormOccurrence
+
 import scala.collection.JavaConversions._
 /**
  * We have observed that almost every letter or combination of two letters seems to have a Wikipedia page.

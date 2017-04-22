@@ -1,7 +1,7 @@
 package org.dbpedia.spotlight.db.stem
 
-import org.junit.Test
 import org.junit.Assert._
+import org.junit.Test
 /**
  * Tests SnowballStemmer
  * @author dav009

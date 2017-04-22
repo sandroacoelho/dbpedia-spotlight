@@ -19,8 +19,9 @@
 package org.dbpedia.spotlight.io
 
 import com.officedepot.cdap2.collection.CompactHashSet
-import io.Source
 import org.apache.log4j.Logger
+
+import scala.io.Source
 
 /**
  * Hacky but easy to generalize parser for Wortschatz dataset. Up to now only used to get common words.

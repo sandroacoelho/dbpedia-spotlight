@@ -1,6 +1,6 @@
 package org.dbpedia.spotlight.model
 
-import collection.mutable.HashMap
+import scala.collection.mutable.HashMap
 
 /**
  * @author Joachim Daiber

@@ -3,7 +3,7 @@ package org.dbpedia.spotlight.db.similarity
 import org.dbpedia.spotlight.db.memory.MemoryQuantizedCountStore
 import org.dbpedia.spotlight.model.{DBpediaResource, TokenType}
 import org.dbpedia.spotlight.util.MemoryStoreUtil
-import MemoryStoreUtil.{createContextStore, createTokenTypeStore}
+import org.dbpedia.spotlight.util.MemoryStoreUtil.{createContextStore, createTokenTypeStore}
 import org.junit.Assert._
 import org.junit.Test
 

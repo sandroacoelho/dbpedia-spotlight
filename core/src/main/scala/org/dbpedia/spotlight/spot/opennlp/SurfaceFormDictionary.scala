@@ -1,9 +1,10 @@
 package org.dbpedia.spotlight.spot.opennlp
 
 import java.io.File
-import collection.mutable.HashSet
+
 import org.dbpedia.spotlight.util.bloomfilter.LongFastBloomFilter
-import scala.collection.JavaConversions._
+
+import scala.collection.mutable.HashSet
 
 /**
  * @author Joachim Daiber

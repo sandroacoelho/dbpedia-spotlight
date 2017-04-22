@@ -1,17 +1,18 @@
 package org.dbpedia.spotlight.db
 
-import model._
-import org.dbpedia.spotlight.model._
-import org.dbpedia.spotlight.disambiguate.mixtures.Mixture
-import similarity.ContextSimilarity
-import org.dbpedia.spotlight.disambiguate.ParagraphDisambiguator
-import org.dbpedia.spotlight.exceptions.{SurfaceFormNotFoundException, InputException}
-import scala.Predef._
 import breeze.linalg
+import org.dbpedia.spotlight.db.model._
+import org.dbpedia.spotlight.db.similarity.ContextSimilarity
+import org.dbpedia.spotlight.disambiguate.ParagraphDisambiguator
+import org.dbpedia.spotlight.disambiguate.mixtures.Mixture
+import org.dbpedia.spotlight.exceptions.InputException
+import org.dbpedia.spotlight.log.SpotlightLog
+import org.dbpedia.spotlight.model._
+import org.dbpedia.spotlight.util.MathUtil
+
+import scala.Predef._
 import scala.collection.JavaConversions._
 import scala.collection.mutable.ArrayBuffer
-import org.dbpedia.spotlight.log.SpotlightLog
-import org.dbpedia.spotlight.util.MathUtil
 
 
 /**

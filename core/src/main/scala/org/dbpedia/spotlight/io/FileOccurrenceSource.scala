@@ -16,12 +16,13 @@
 
 package org.dbpedia.spotlight.io
 
-import org.dbpedia.spotlight.model._
-import io.Source
-import org.dbpedia.spotlight.log.SpotlightLog
 import java.io._
-import java.util.zip.{GZIPOutputStream, GZIPInputStream}
-import java.text.ParseException
+import java.util.zip.{GZIPInputStream, GZIPOutputStream}
+
+import org.dbpedia.spotlight.log.SpotlightLog
+import org.dbpedia.spotlight.model._
+
+import scala.io.Source
 
 /**
  * Gets DBpediaResourceOccurrences from TSV files.

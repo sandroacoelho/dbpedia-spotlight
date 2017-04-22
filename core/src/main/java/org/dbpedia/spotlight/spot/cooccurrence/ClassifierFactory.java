@@ -1,8 +1,8 @@
 package org.dbpedia.spotlight.spot.cooccurrence;
 
+import org.dbpedia.spotlight.exceptions.InitializationException;
 import org.dbpedia.spotlight.spot.cooccurrence.classification.SpotClassifier;
 import org.dbpedia.spotlight.spot.cooccurrence.features.data.OccurrenceDataProvider;
-import org.dbpedia.spotlight.exceptions.InitializationException;
 
 /**
  * Factory for candidate classifiers (unigram and n-gram).

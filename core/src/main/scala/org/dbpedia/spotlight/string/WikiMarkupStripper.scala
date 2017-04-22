@@ -17,6 +17,7 @@
 package org.dbpedia.spotlight.string
 
 import java.util.regex.{Matcher, Pattern}
+
 import org.apache.commons.lang.StringEscapeUtils
 
 /**

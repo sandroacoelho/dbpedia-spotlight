@@ -16,13 +16,13 @@
 
 package org.dbpedia.spotlight.util;
 
-import java.io.File;
-import java.io.IOException;
-import java.util.Date;
-
 import org.apache.log4j.FileAppender;
 import org.apache.log4j.Layout;
 import org.apache.log4j.spi.ErrorCode;
+
+import java.io.File;
+import java.io.IOException;
+import java.util.Date;
 
 /**
  * This is a customized log4j appender, which will create a new file for every

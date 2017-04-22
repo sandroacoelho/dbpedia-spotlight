@@ -1,9 +1,9 @@
 package org.dbpedia.spotlight.spot
 
+import org.dbpedia.spotlight.exceptions.ConfigurationException
 import org.dbpedia.spotlight.model.Factory
 import org.scalatest._
-import matchers.ShouldMatchers
-import org.dbpedia.spotlight.exceptions.{ConfigurationException}
+import org.scalatest.matchers.ShouldMatchers
 
 class SpotSelectorTest extends FlatSpec with ShouldMatchers {
 

@@ -1,9 +1,10 @@
 package org.dbpedia.spotlight.db.disk
 
 import java.util.{HashMap, Map}
-import org.dbpedia.spotlight.db.model.{TokenTypeStore, ContextStore}
-import org.dbpedia.spotlight.model.{TokenType, DBpediaResource}
+
 import org.apache.commons.lang.NotImplementedException
+import org.dbpedia.spotlight.db.model.{ContextStore, TokenTypeStore}
+import org.dbpedia.spotlight.model.{DBpediaResource, TokenType}
 
 /**
  * A disk-based [[org.dbpedia.spotlight.db.model.ContextStore]] based on JDBM.

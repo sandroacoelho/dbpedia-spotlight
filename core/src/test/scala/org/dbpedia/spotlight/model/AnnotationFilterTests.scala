@@ -18,10 +18,10 @@
 
 package org.dbpedia.spotlight.model
 
-import org.junit.Test
-import org.junit.Assert._
-import org.dbpedia.spotlight.io.AnnotatedTextSource
 import org.dbpedia.spotlight.filter.annotations.CoreferenceFilter
+import org.dbpedia.spotlight.io.AnnotatedTextSource
+import org.junit.Assert._
+import org.junit.Test
 
 
 /**

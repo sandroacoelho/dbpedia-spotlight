@@ -1,7 +1,8 @@
 package org.dbpedia.spotlight.db.similarity
 
-import collection.mutable
-import org.dbpedia.spotlight.model.{TokenType, DBpediaResource}
+import org.dbpedia.spotlight.model.{DBpediaResource, TokenType}
+
+import scala.collection.mutable
 
 
 /**

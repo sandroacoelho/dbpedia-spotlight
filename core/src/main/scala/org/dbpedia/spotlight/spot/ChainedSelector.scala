@@ -19,7 +19,6 @@ package org.dbpedia.spotlight.spot
 
 import org.dbpedia.spotlight.log.SpotlightLog
 import org.dbpedia.spotlight.model._
-import scala.collection.JavaConversions._
 
 /**
  * @author <a href="mailto:scott@onespot.com">scott white</a>

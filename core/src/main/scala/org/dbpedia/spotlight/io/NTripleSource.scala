@@ -1,9 +1,11 @@
 package org.dbpedia.spotlight.io
 
-import scala.io.Source
 import java.io._
 import java.util.zip.GZIPInputStream
+
 import org.dbpedia.spotlight.log.SpotlightLog
+
+import scala.io.Source
 
 /**
  * Iterates over nt files. Can also iterate over nq files not caring about the fourth element.

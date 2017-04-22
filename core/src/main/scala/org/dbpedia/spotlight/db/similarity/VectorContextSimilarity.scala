@@ -1,13 +1,10 @@
 package org.dbpedia.spotlight.db.similarity
 
 import org.dbpedia.spotlight.db.memory.MemoryVectorStore
-import org.dbpedia.spotlight.db.model.ContextStore
-
 import org.dbpedia.spotlight.model.{DBpediaResource, TokenType}
-import org.dbpedia.spotlight.util.MathUtil.{cosineSimilarity, LOGZERO}
+import org.dbpedia.spotlight.util.MathUtil.{LOGZERO, cosineSimilarity}
 
 import scala.collection.mutable
-import scala.util.Random
 
 
 /**

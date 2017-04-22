@@ -1,14 +1,12 @@
 package org.dbpedia.spotlight.db.memory
 
+import org.dbpedia.spotlight.db.memory.util.StringToIDMapFactory
+import org.dbpedia.spotlight.db.model.{OntologyTypeStore, ResourceStore}
+import org.dbpedia.spotlight.exceptions.DBpediaResourceNotFoundException
 import org.dbpedia.spotlight.log.SpotlightLog
 import org.dbpedia.spotlight.model.DBpediaResource
-import java.lang.String
+
 import scala.collection.JavaConversions._
-import scala.{throws, transient}
-import org.dbpedia.spotlight.exceptions.DBpediaResourceNotFoundException
-import org.dbpedia.spotlight.db.model.{OntologyTypeStore, ResourceStore}
-import java.lang.Integer
-import util.StringToIDMapFactory
 
 /**
  * @author Joachim Daiber

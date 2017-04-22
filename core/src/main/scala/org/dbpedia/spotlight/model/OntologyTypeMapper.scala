@@ -1,6 +1,6 @@
 package org.dbpedia.spotlight.msm2013.model
 
-import org.dbpedia.spotlight.model.{OntologyType, DBpediaResource}
+import org.dbpedia.spotlight.model.{DBpediaResource, OntologyType}
 
 /**
  * Interface for providing ontology types for URIs. Implementations can be in-mem, in disk, and using different backends.

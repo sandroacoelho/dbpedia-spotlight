@@ -16,13 +16,15 @@
 
 package org.dbpedia.spotlight.annotate
 
+import java.util
+
+import org.dbpedia.spotlight.disambiguate.{Disambiguator, ParagraphDisambiguatorJ}
+import org.dbpedia.spotlight.exceptions.InputException
 import org.dbpedia.spotlight.log.SpotlightLog
 import org.dbpedia.spotlight.model._
 import org.dbpedia.spotlight.spot.Spotter
-import org.dbpedia.spotlight.exceptions.InputException
+
 import scala.collection.JavaConversions._
-import org.dbpedia.spotlight.disambiguate.{ParagraphDisambiguatorJ, Disambiguator}
-import java.util
 
 /**
  * Annotates a text with DBpedia Resources.

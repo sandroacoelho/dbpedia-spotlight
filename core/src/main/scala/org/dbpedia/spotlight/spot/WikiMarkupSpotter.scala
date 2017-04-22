@@ -18,8 +18,7 @@
 
 package org.dbpedia.spotlight.spot
 
-import org.dbpedia.spotlight.model.SurfaceFormOccurrence
-import org.dbpedia.spotlight.model.Text
+import org.dbpedia.spotlight.model.{SurfaceFormOccurrence, Text}
 import org.dbpedia.spotlight.string.ParseSurfaceFormText
 
 /**

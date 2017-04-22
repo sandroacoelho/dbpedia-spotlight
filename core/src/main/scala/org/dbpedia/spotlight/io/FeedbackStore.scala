@@ -1,8 +1,9 @@
 package org.dbpedia.spotlight.io
 
-import java.net.URL
-import org.dbpedia.spotlight.model.{Text, SurfaceForm, DBpediaResource}
 import java.io.PrintStream
+import java.net.URL
+
+import org.dbpedia.spotlight.model.{DBpediaResource, SurfaceForm, Text}
 
 
 /**

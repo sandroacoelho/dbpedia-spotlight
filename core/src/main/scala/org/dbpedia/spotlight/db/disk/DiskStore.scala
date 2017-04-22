@@ -1,8 +1,9 @@
 package org.dbpedia.spotlight.db.disk
 
 import java.io.File
-import org.dbpedia.spotlight.log.SpotlightLog
+
 import org.dbpedia.spotlight.db.model.TokenTypeStore
+import org.dbpedia.spotlight.log.SpotlightLog
 
 /**
  * Utility object for loading disk stores.

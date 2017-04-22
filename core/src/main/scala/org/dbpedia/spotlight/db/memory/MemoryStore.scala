@@ -1,21 +1,21 @@
 package org.dbpedia.spotlight.db.memory
 
 
-import com.esotericsoftware.kryo.io.{Output, Input}
-import org.dbpedia.spotlight.model.{DBpediaType, FreebaseType, SchemaOrgType, OntologyType}
 import java.io._
-import scala.Predef._
-import com.esotericsoftware.kryo.serializers.{DefaultArraySerializers, JavaSerializer}
-import java.lang.{System, Short, String}
-import collection.mutable.HashMap
-import org.dbpedia.spotlight.log.SpotlightLog
-import com.esotericsoftware.kryo.serializers.DefaultSerializers.KryoSerializableSerializer
+import java.lang.Short
+
 import com.esotericsoftware.kryo.Kryo
-import org.dbpedia.spotlight.db.model.{TokenTypeStore, ResourceStore}
-import org.dbpedia.spotlight.db.FSADictionary
-import scala.Some
+import com.esotericsoftware.kryo.io.{Input, Output}
+import com.esotericsoftware.kryo.serializers.DefaultSerializers.KryoSerializableSerializer
+import com.esotericsoftware.kryo.serializers.{DefaultArraySerializers, JavaSerializer}
 import it.unimi.dsi.fastutil.objects.Object2ShortOpenHashMap
-import scala.Some
+import org.dbpedia.spotlight.db.FSADictionary
+import org.dbpedia.spotlight.db.model.{ResourceStore, TokenTypeStore}
+import org.dbpedia.spotlight.log.SpotlightLog
+import org.dbpedia.spotlight.model.{DBpediaType, FreebaseType, OntologyType, SchemaOrgType}
+
+import scala.Predef._
+import scala.collection.mutable.HashMap
 
 
 /**

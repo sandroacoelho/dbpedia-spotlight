@@ -1,10 +1,10 @@
 package org.dbpedia.spotlight.db.tokenize
 
-import opennlp.tools.sentdetect.SentenceDetector
 import opennlp.tools.postag.POSTaggerME
-import org.dbpedia.spotlight.model.{Feature, Score, TokenType, Token, Text}
+import opennlp.tools.sentdetect.SentenceDetector
 import opennlp.tools.util.Span
-import org.dbpedia.spotlight.db.model.{TokenTypeStore, Stemmer}
+import org.dbpedia.spotlight.db.model.{Stemmer, TokenTypeStore}
+import org.dbpedia.spotlight.model._
 
 /**
  * @author Joachim Daiber

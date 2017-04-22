@@ -14,12 +14,14 @@
 
 package org.dbpedia.spotlight.filter.visitor
 
-import org.dbpedia.spotlight.model.DBpediaResourceOccurrence
+import java.util.{Collections, Comparator}
+
 import org.dbpedia.spotlight.filter.annotations._
+import org.dbpedia.spotlight.model.DBpediaResourceOccurrence
 import org.dbpedia.spotlight.model.Factory._
 import org.dbpedia.spotlight.sparql.SparqlQueryExecuter
+
 import scala.collection.JavaConverters._
-import java.util.{Comparator, Collections}
 
 
 class OccsFilter(confidence: Double, support: Int,

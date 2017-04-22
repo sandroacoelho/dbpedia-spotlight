@@ -16,9 +16,11 @@
 
 package org.dbpedia.spotlight.util
 
-import io.Source
-import java.io.{PrintStream, File}
+import java.io.{File, PrintStream}
+
 import org.dbpedia.extraction.util.WikiUtil
+
+import scala.io.Source
 
 /**
  * Created by IntelliJ IDEA.

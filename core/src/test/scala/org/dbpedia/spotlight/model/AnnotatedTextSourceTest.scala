@@ -1,9 +1,10 @@
 package org.dbpedia.spotlight.model
 
-import org.junit.Test
-import org.junit.Assert._
+import java.io.{File, FileWriter}
+
 import org.dbpedia.spotlight.io.AnnotatedTextSource
-import java.io.{FileWriter, File}
+import org.junit.Assert._
+import org.junit.Test
 
 /*
  * *

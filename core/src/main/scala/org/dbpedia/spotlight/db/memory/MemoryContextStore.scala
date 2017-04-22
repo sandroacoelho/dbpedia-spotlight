@@ -1,12 +1,12 @@
 package org.dbpedia.spotlight.db.memory
 
-import java.util.{Map, HashMap}
-import scala.collection.JavaConversions._
-import org.dbpedia.spotlight.db.model.{TokenTypeStore, ContextStore}
+import java.util.{HashMap, Map}
+
 import com.esotericsoftware.kryo.io.{Input, Output}
-import org.apache.commons.lang.{SerializationException, NotImplementedException}
-import com.esotericsoftware.kryo.{KryoException, Kryo, KryoSerializable}
-import org.dbpedia.spotlight.model.{TokenType, Token, DBpediaResource}
+import com.esotericsoftware.kryo.{Kryo, KryoException, KryoSerializable}
+import org.apache.commons.lang.NotImplementedException
+import org.dbpedia.spotlight.db.model.{ContextStore, TokenTypeStore}
+import org.dbpedia.spotlight.model.{DBpediaResource, TokenType}
 
 
 /**

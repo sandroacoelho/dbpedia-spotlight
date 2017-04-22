@@ -18,10 +18,10 @@
 
 package org.dbpedia.spotlight.disambiguate
 
-import org.dbpedia.spotlight.model.{DBpediaResourceOccurrence, SurfaceFormOccurrence}
-import actors._
-import actors.Actor._
 import org.junit.Test
+
+import scala.actors.Actor._
+import scala.actors._
 import scala.collection.JavaConverters._
 
 /**

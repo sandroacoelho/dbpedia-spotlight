@@ -18,24 +18,28 @@
 
 package org.dbpedia.spotlight.sparql;
 
-import java.io.IOException;
-import java.io.UnsupportedEncodingException;
-import java.net.MalformedURLException;
-import java.net.URL;
-import java.net.URLEncoder;
-import java.util.*;
-
-import org.apache.commons.httpclient.*;
-import org.dbpedia.spotlight.model.SpotlightConfiguration;
+import org.apache.commons.httpclient.DefaultHttpMethodRetryHandler;
+import org.apache.commons.httpclient.HttpClient;
+import org.apache.commons.httpclient.HttpException;
+import org.apache.commons.httpclient.HttpStatus;
 import org.apache.commons.httpclient.methods.GetMethod;
 import org.apache.commons.httpclient.params.HttpMethodParams;
 import org.apache.log4j.Logger;
 import org.dbpedia.spotlight.exceptions.OutputException;
 import org.dbpedia.spotlight.exceptions.SparqlExecutionException;
 import org.dbpedia.spotlight.model.DBpediaResource;
+import org.dbpedia.spotlight.model.SpotlightConfiguration;
+import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-import org.json.JSONArray;
+
+import java.io.IOException;
+import java.io.UnsupportedEncodingException;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.net.URLEncoder;
+import java.util.ArrayList;
+import java.util.List;
 
 
 /**

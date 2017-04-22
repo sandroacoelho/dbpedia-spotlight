@@ -1,12 +1,10 @@
 package org.dbpedia.spotlight.db
 
-import org.dbpedia.spotlight.model._
-import opennlp.tools.chunker.{ChunkerModel, ChunkerME}
-import org.dbpedia.spotlight.db.model.SurfaceFormStore
-import opennlp.tools.namefind.{RegexNameFinder, TokenNameFinderModel, NameFinderME}
+import opennlp.tools.chunker.{ChunkerME, ChunkerModel}
+import opennlp.tools.namefind.{NameFinderME, TokenNameFinderModel}
 import opennlp.tools.util.Span
-import java.util.regex.Pattern
-import scala.Some
+import org.dbpedia.spotlight.db.model.SurfaceFormStore
+import org.dbpedia.spotlight.model._
 
 
 /**

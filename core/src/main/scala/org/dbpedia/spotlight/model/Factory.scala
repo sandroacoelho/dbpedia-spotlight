@@ -18,13 +18,12 @@
 
 package org.dbpedia.spotlight.model
 
-import collection.JavaConversions._
-import org.dbpedia.spotlight.exceptions.{ItemNotFoundException, ConfigurationException}
-import org.dbpedia.spotlight.log.SpotlightLog
-import scala.collection.JavaConverters._
-import org.dbpedia.spotlight.spot.{SpotSelector, AtLeastOneNounSelector, ShortSurfaceFormSelector}
-import java.io.File
 import org.dbpedia.extraction.util.WikiUtil
+import org.dbpedia.spotlight.exceptions.ConfigurationException
+import org.dbpedia.spotlight.log.SpotlightLog
+import org.dbpedia.spotlight.spot.{AtLeastOneNounSelector, ShortSurfaceFormSelector, SpotSelector}
+
+import scala.collection.JavaConverters._
 
 /**
  * Class containing methods to create model objects in many different ways

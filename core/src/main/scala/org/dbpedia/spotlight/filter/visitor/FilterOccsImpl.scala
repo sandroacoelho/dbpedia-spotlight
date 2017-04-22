@@ -14,10 +14,12 @@
 
 package org.dbpedia.spotlight.filter.visitor
 
+import java.util
+
 import org.dbpedia.spotlight.filter.annotations._
 import org.dbpedia.spotlight.model.DBpediaResourceOccurrence
+
 import scala.collection.JavaConversions._
-import java.util
 
 
 class FilterOccsImpl extends FilterOccsVisitor {

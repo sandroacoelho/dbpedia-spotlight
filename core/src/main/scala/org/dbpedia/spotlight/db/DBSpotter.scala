@@ -1,18 +1,18 @@
 package org.dbpedia.spotlight.db
 
-import model.{TextTokenizer, SurfaceFormStore}
-import org.dbpedia.spotlight.spot.Spotter
-import breeze.linalg.DenseVector
-import org.dbpedia.spotlight.model._
-import util.control.Breaks._
-import scala.{None, Some}
-import org.dbpedia.spotlight.exceptions.SurfaceFormNotFoundException
-import collection.mutable.ListBuffer
-import opennlp.tools.util.Span
-import opennlp.tools.namefind.RegexNameFinder
 import java.util.regex.Pattern
-import org.apache.commons.lang.StringUtils
+
+import breeze.linalg.DenseVector
+import opennlp.tools.namefind.RegexNameFinder
+import opennlp.tools.util.Span
+import org.dbpedia.spotlight.db.model.{SurfaceFormStore, TextTokenizer}
+import org.dbpedia.spotlight.exceptions.SurfaceFormNotFoundException
 import org.dbpedia.spotlight.log.SpotlightLog
+import org.dbpedia.spotlight.model._
+import org.dbpedia.spotlight.spot.Spotter
+
+import scala.collection.mutable.ListBuffer
+import scala.util.control.Breaks._
 
 abstract class DBSpotter(
  surfaceFormStore: SurfaceFormStore,

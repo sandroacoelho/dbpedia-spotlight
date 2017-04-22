@@ -18,14 +18,13 @@
 
 package org.dbpedia.spotlight.model
 
-import collection.JavaConversions._
-import collection.mutable.HashMap
+import java.sql.{DriverManager, PreparedStatement, ResultSet}
 
-import java.sql.{SQLException, ResultSet, PreparedStatement, DriverManager}
+import org.dbpedia.spotlight.exceptions.ItemNotFoundException
 
-import java.lang.String
-import org.dbpedia.spotlight.exceptions.{ItemNotFoundException, SearchException}
-import collection.immutable.List._
+import scala.collection.JavaConversions._
+import scala.collection.immutable.List._
+import scala.collection.mutable.HashMap
 
 /**
  * @author Joachim Daiber

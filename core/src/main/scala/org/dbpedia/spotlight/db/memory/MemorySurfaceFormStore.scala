@@ -1,14 +1,11 @@
 package org.dbpedia.spotlight.db.memory
 
-import org.dbpedia.spotlight.log.SpotlightLog
-import org.dbpedia.spotlight.model.SurfaceForm
+import org.apache.commons.lang.StringUtils
+import org.dbpedia.spotlight.db.memory.util.StringToIDMapFactory
 import org.dbpedia.spotlight.db.model.SurfaceFormStore
 import org.dbpedia.spotlight.exceptions.SurfaceFormNotFoundException
-import scala.Array
-import java.lang.Integer
-import util.StringToIDMapFactory
-import scala.collection.mutable
-import org.apache.commons.lang.StringUtils
+import org.dbpedia.spotlight.log.SpotlightLog
+import org.dbpedia.spotlight.model.SurfaceForm
 
 /**
  * @author Joachim Daiber
